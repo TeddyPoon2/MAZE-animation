@@ -1,0 +1,156 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("mazebackground.jpeg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  overflow: hidden;
+}
+
+#player {
+  position: absolute;
+  bottom: -10%;
+  animation-name: one, two, three, four, five, six, seven, eight, nine, ten,
+    eleven, twelve, thirdteen, fourteen, fifteen;
+  animation-duration: 2s;
+  animation-delay: 0s, 2s, 4s, 6s, 8s, 10s, 12s, 14s, 16s, 18s, 20s, 22s, 24s,
+    26s, 28s;
+  animation-fill-mode: forwards;
+  /* animation-iteration-count: infinite; */
+}
+
+@keyframes one {
+  from {
+    transform: translate(0vw, 0vw);
+  }
+  to {
+    transform: translate(0vw, -70vh);
+  }
+}
+
+@keyframes two {
+  from {
+    transform: translate(0vw, -70vh);
+  }
+  to {
+    transform: translate(20vw, -70vh);
+  }
+}
+
+@keyframes three {
+  from {
+    transform: translate(20vw, -70vh);
+  }
+  to {
+    transform: translate(20vw, -40vh);
+  }
+}
+
+@keyframes four {
+  from {
+    transform: translate(20vw, -40vh);
+  }
+  to {
+    transform: translate(53vw, -40vh);
+  }
+}
+
+@keyframes five {
+  from {
+    transform: translate(53vw, -40vh);
+  }
+  to {
+    transform: translate(53vw, -25vh);
+  }
+}
+
+@keyframes six {
+  from {
+    transform: translate(53vw, -25vh);
+  }
+  to {
+    transform: translate(65vw, -25vh);
+  }
+}
+
+@keyframes seven {
+  from {
+    transform: translate(65vw, -25vh);
+  }
+  to {
+    transform: translate(65vw, -65vh);
+  }
+}
+
+@keyframes eight {
+  from {
+    transform: translate(65vw, -65vh);
+  }
+  to {
+    transform: translate(50vw, -65vh);
+  }
+}
+
+@keyframes nine {
+  from {
+    transform: translate(50vw, -65vh);
+  }
+  to {
+    transform: translate(50vw, -83vh);
+  }
+}
+
+@keyframes ten {
+  from {
+    transform: translate(50vw, -83vh);
+  }
+  to {
+    transform: translate(76vw, -83vh);
+  }
+}
+
+@keyframes eleven {
+  from {
+    transform: translate(76vw, -83vh);
+  }
+  to {
+    transform: translate(76vw, -15vh);
+  }
+}
+
+@keyframes twelve {
+  from {
+    transform: translate(76vw, -15vh);
+  }
+  to {
+    transform: translate(52vw, -15vh);
+  }
+}
+
+@keyframes thirdteen {
+  from {
+    transform: translate(52vw, -15vh);
+  }
+  to {
+    transform: translate(52vw, 0vh);
+  }
+}
+
+@keyframes fourteen {
+  from {
+    transform: translate(52vw, 0vh);
+  }
+  to {
+    transform: translate(62vw, 0vh);
+  }
+}
+
+@keyframes fifteen {
+  from {
+    transform: translate(62vw, 0vh);
+  }
+  to {
+    transform: translate(62vw, 15vh);
+  }
+}
